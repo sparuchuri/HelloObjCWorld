@@ -10,6 +10,7 @@
 
 @interface FirstViewController : UIViewController
 
+-(IBAction)showMessage;
 
 @end
 
