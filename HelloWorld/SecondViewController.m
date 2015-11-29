@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dialCall {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://8004664411"]];
+}
+
 @end
